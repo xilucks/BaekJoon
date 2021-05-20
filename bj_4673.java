@@ -13,7 +13,7 @@ public class bj_4673 {
 				sum += a%10;
 				if(a/10 == 0)break;	
 			}
-			if(sum >=20000) break;
+			if(i> 10000) break;
 			if (!list.contains(sum)) list.add(sum);
 			sum = 0;
 		}
